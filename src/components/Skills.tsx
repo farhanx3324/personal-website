@@ -26,13 +26,14 @@ const Skills = () => {
 
   useEffect(() => {
     if (skillsRef.current) {
-      gsap.utils.toArray(".skill-bar").forEach((bar: any) => {
-        gsap.from(bar, {
+      gsap.utils.toArray(".skill-bar").forEach((bar) => {
+        const element = bar as HTMLElement // Explicitly cast `bar` to HTMLElement
+        gsap.from(element, {
           width: 0,
           duration: 1.5,
           ease: "power3.out",
           scrollTrigger: {
-            trigger: bar,
+            trigger: element,
             start: "top 80%",
             end: "bottom 20%",
             toggleActions: "play none none reverse",

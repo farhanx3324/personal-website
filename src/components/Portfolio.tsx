@@ -29,21 +29,23 @@ const Portfolio = () => {
 
   useEffect(() => {
     if (portfolioRef.current) {
-      gsap.utils.toArray(".portfolio-item").forEach((item: any) => {
-        gsap.from(item, {
+      gsap.utils.toArray(".portfolio-item").forEach((item) => {
+        const element = item as HTMLElement; // Explicitly cast `item` to HTMLElement
+        gsap.from(element, {
           opacity: 0,
           y: 50,
           duration: 1,
           scrollTrigger: {
-            trigger: item,
+            trigger: element,
             start: "top 80%",
             end: "bottom 20%",
             toggleActions: "play none none reverse",
           },
-        })
-      })
+        });
+      });
     }
-  }, [])
+  }, []);
+  
 
   return (
     <section id="portfolio" className="py-20 bg-secondary">

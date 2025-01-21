@@ -10,7 +10,7 @@ const About = () => {
           </p>
           <p className="text-lg mb-4">GPA: 3.91/4.00</p>
           <blockquote className="border-l-4 border-primary pl-4 italic text-xl my-8 text-muted-foreground">
-            "Passionate about leveraging technology to solve complex problems and create innovative solutions."
+            &quot;Passionate about leveraging technology to solve complex problems and create innovative solutions.&quot;
           </blockquote>
         </div>
       </div>
@@ -19,4 +19,3 @@ const About = () => {
 }
 
 export default About
-

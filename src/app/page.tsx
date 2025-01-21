@@ -17,13 +17,14 @@ gsap.registerPlugin(ScrollTrigger)
 export default function Home() {
   useEffect(() => {
     // Animate sections on scroll
-    gsap.utils.toArray("section").forEach((section: any) => {
-      gsap.from(section, {
+    gsap.utils.toArray("section").forEach((section) => {
+      const element = section as HTMLElement; // Explicitly cast to HTMLElement
+      gsap.from(element, {
         opacity: 0,
         y: 50,
         duration: 1,
         scrollTrigger: {
-          trigger: section,
+          trigger: element,
           start: "top 80%",
           end: "bottom 20%",
           toggleActions: "play none none reverse",
@@ -45,4 +46,3 @@ export default function Home() {
     </main>
   )
 }
-
