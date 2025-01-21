@@ -8,7 +8,7 @@ const Hero = () => {
   const dynamicTextRef = useRef<HTMLSpanElement>(null)
 
   useEffect(() => {
-    const words = ["Software Engineering", "AI and Machine Learning", "", "Data Science"]
+    const words = ["Software Engineering", "AI and Machine Learning", "Backend Development", "Automation", "Data Science", "Computer Vision"]
     let wordIndex = 0
     let charIndex = 0
     let isDeleting = false
