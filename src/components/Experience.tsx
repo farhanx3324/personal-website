@@ -103,7 +103,7 @@ const Experience = () => {
                   </div>
                 </div>
                 <p className="mt-4">{item.description}</p>
-                <div className="absolute top-10 left-1/2 w-8 h-8 bg-primary rounded-full border-4 border-background transform -translate-x-1/2 -translate-y-1/2"></div>
+                {/* <div className="absolute top-10 left-1/2 w-8 h-8 bg-primary rounded-full border-4 border-background transform -translate-x-1/2 -translate-y-1/2"></div> */}
               </div>
             </div>
           ))}

@@ -13,9 +13,9 @@ const About = () => {
           <p className="text-lg mb-4">
             Bachelor of Science in Computer Science; Dual Minor in Mathematics and Statistics
           </p>
-          <p className="text-lg mb-4">GPA: 3.91/4.00</p>
+          <p className="text-lg mb-4">GPA: 3.9/4.0</p>
           <blockquote className="border-l-4 border-primary pl-4 italic text-xl my-8 text-muted-foreground">
-            &quot;Wisdom is not a product of schooling but of the lifelong attempt to acquire it.&quot; — Albert Einstein
+            &quot;"The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge."&quot; – Stephen Hawking
           </blockquote>
         </div>
       </div>
