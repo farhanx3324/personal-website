@@ -57,9 +57,9 @@ const Hero = () => {
         <Image
           src="/headshot.jpeg"
           alt="Farhan Chowdhury"
-          width={200}
-          height={200}
-          className="rounded-full border-4 border-blue-400 h-[200px] w-[200px] mb-8 mx-auto object-cover"
+          width={500}
+          height={500}
+          className="rounded-full border-4 border-blue-400 h-[400px] w-[400px] mb-8 mx-auto object-cover"
         />
         <h1 className="text-5xl font-bold mb-4 tracking-tight bg-gradient-to-r to-purple-400 from-blue-400 text-transparent bg-clip-text">Farhan Chowdhury</h1>
         <p className="text-2xl mb-8">

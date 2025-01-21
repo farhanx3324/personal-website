@@ -12,7 +12,7 @@ const portfolioData = [
     title: "CrownTrade",
     description: "Full-stack web application to predict and display future stock prices",
     image: "/placeholder.svg?height=300&width=400",
-    link: "#",
+    link: "https://github.com/CS196Illinois/Group8-FA23",
     skills: ["React.js", "Flask", "JavaScript", "Pandas", "XGBoost"],
   },
   {

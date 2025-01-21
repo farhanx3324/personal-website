@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="bg-background py-8 border-t border-border">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <p className="text-muted-foreground mb-4 md:mb-0">&copy; 2023 Farhan Chowdhury. All rights reserved.</p>
+          <p className="text-muted-foreground mb-4 md:mb-0">2025 Farhan Chowdhury</p>
           <div className="flex space-x-4">
             <a href="#" className="text-muted-foreground hover:text-primary transition duration-300">
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

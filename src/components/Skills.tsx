@@ -7,18 +7,12 @@ import { ScrollTrigger } from "gsap/ScrollTrigger"
 gsap.registerPlugin(ScrollTrigger)
 
 const skillsData = [
+  { name: "Python", proficiency: "Flask, Pandas, PyTorch, NumPy"},
+  { name: "C++", proficiency: "" },
   { name: "Java", proficiency: "Spring Boot" },
-  { name: "Python", proficiency: "Flask, Django" },
-  { name: "JavaScript", proficiency: "React.js, Express.js" },
-  { name: "React", proficiency: 75 },
-  { name: "Machine Learning", proficiency: 70 },
-  { name: "Data Science", proficiency: 65 },
-  { name: "C++", proficiency: 80 },
-  { name: "SQL", proficiency: 75 },
-  { name: "HTML/CSS", proficiency: 85 },
-  { name: "Node.js", proficiency: 70 },
-  { name: "Git", proficiency: 85 },
-  { name: "Docker", proficiency: 60 },
+  { name: "JavaScript", proficiency: "React.js, Express.js, Next.js" },
+  { name: "SQL", proficiency: "MongoDB"},
+  { name: "HTML/CSS", proficiency: "Tailwind" },
 ]
 
 const Skills = () => {

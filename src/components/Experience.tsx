@@ -11,6 +11,7 @@ const experienceData = [
   {
     title: "Founding Software Engineer",
     company: "Smartrip.Ai",
+    link: "https://smartrip.ai",
     logo: "/smartrip_logo.png?height=100&width=100",
     date: "November 2024 – Present",
     description:
@@ -19,7 +20,7 @@ const experienceData = [
   {
     title: "Senior Software Consultant",
     company: "CUBE Consulting",
-    logo: "/placeholder.svg?height=150&width=150",
+    logo: "/cube.jpeg?height=150&width=150",
     date: "January 2024 – December 2024",
     description:
       "Collaboratively built and deployed a custom UI application to a Jetson Nano microcomputer for detecting engraved leather part numbers. Implemented AWS IOT infrastructure to manage dynamic application workloads.",
@@ -27,7 +28,7 @@ const experienceData = [
   {
     title: "AI Software Engineer",
     company: "Outlier AI",
-    logo: "/placeholder.svg?height=100&width=100",
+    logo: "/outlier.png?height=100&width=100",
     date: "March 2024 – August 2024",
     description:
       "Engineered 200+ Python and JavaScript code prompts to train and fine-tune LLMs for 3 Fortune 500 companies. Collaborated with tech leads to review new Java, SQL, and HTML prompts and receive implementation feedback.",
@@ -35,7 +36,7 @@ const experienceData = [
   {
     title: "Coding Instructor",
     company: "Grainger College of Engineering",
-    logo: "/placeholder.svg?height=100&width=100",
+    logo: "/illinois_cs.png?height=100&width=100",
     date: "January 2024 – May 2024",
     description:
       "Supported 30+ students by leading lab and exam preparation sessions and hosting office hours to teach core Java programming concepts and Android Studio app development.",
@@ -87,7 +88,17 @@ const Experience = () => {
                   </div>
                   <div className="text-center">
                     <h3 className="text-2xl font-bold">{item.title}</h3>
-                    <h4 className="text-xl text-primary">{item.company}</h4>
+                    <h4 className="text-xl text-primary">
+                      <a
+                        href={item.link || "#"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline"
+                      >
+                        {item.company}
+                      </a>
+                    </h4>
+
                     <p className="text-muted-foreground">{item.date}</p>
                   </div>
                 </div>
