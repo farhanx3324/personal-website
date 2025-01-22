@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger)
 
 const experienceData = [
   {
-    title: "Founding Software Engineer",
+    title: "Software Engineer",
     company: "Smartrip.Ai",
     link: "https://smartrip.ai",
     logo: "/smartrip_logo.png?height=100&width=100",
