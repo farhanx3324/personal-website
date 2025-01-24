@@ -26,6 +26,14 @@ const experienceData = [
       "Collaboratively built and deployed a custom UI application to a Jetson Nano microcomputer for detecting engraved leather part numbers. Implemented AWS IOT infrastructure to manage dynamic application workloads.",
   },
   {
+    title: "UpSkill Technology Pathway",
+    company: "Visa",
+    logo: "/visa-l1.png?height=100&width=100",
+    date: "May 2024",
+    description:
+      "",
+  },
+  {
     title: "AI Software Engineer",
     company: "Outlier AI",
     logo: "/outlier.png?height=100&width=100",
