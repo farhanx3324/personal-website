@@ -18,6 +18,14 @@ const experienceData = [
       "Architected a Flask-based backend integrating OpenAI's ChatGPT API for intelligent, context-aware chatbot interactions. Streamlined API performance with asynchronous processing, reducing response latency by 35%.",
   },
   {
+    title: "Software Engineer",
+    company: "Disruption Lab at Gies",
+    logo: "/gi.jpeg?height=100&width=100",
+    date: "February 2024 – Present",
+    description:
+      "",
+  },
+  {
     title: "Senior Software Consultant",
     company: "CUBE Consulting",
     logo: "/cube.jpeg?height=150&width=150",
@@ -32,14 +40,6 @@ const experienceData = [
     date: "May 2024",
     description:
       "",
-  },
-  {
-    title: "AI Software Engineer",
-    company: "Outlier AI",
-    logo: "/outlier.png?height=100&width=100",
-    date: "March 2024 – August 2024",
-    description:
-      "Engineered 200+ Python and JavaScript code prompts to train and fine-tune LLMs for 3 Fortune 500 companies. Collaborated with tech leads to review new Java, SQL, and HTML prompts and receive implementation feedback.",
   },
   {
     title: "Coding Instructor",
