@@ -9,6 +9,22 @@ gsap.registerPlugin(ScrollTrigger)
 
 const experienceData = [
   {
+    title: "Software Development Engineer Intern",
+    company: "Amazon",
+    logo: "/amaz.webp?height=100&width=100",
+    date: "May 2025 – August 2025",
+    description:
+      "Incoming summer 2025",
+  },
+  {
+    title: "Technology Discovery Day",
+    company: "Susquehanna",
+    logo: "/sig.jpeg?height=100&width=100",
+    date: "May 2024",
+    description:
+      "",
+  },
+  {
     title: "Software Engineer",
     company: "Smartrip.Ai",
     link: "https://smartrip.ai",
