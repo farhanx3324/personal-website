@@ -20,7 +20,7 @@ const experienceData = [
     title: "Technology Discovery Day",
     company: "Susquehanna",
     logo: "/sig.jpeg?height=100&width=100",
-    date: "May 2024",
+    date: "April 2025",
     description:
       "",
   },
